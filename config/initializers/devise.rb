@@ -24,9 +24,9 @@ Devise.setup do |config|
   require "omniauth-twitter"
   require "omniauth-google-oauth2"
   
-  config.omniauth :facebook, "652912554813530", "f1896ee483792601d951523fddd7076c"
-  config.omniauth :twitter, "tIAdvCWXnQ4RJ2pHc6aICHkzf", "NQmqSwYNfx2wxElFBpyEF6C3rBuzIqYGvADNhg8AjEgP5oWarj"
-  config.omniauth :google_oauth2, "342848196220-2ocl29inun2th08fd0sh7ouje8e39c2i.apps.googleusercontent.com", "wNO2KE3-Hbu5fvqxw5GTzyz1"
+  config.omniauth :facebook, "id_key", "secrect_key"
+  config.omniauth :twitter, "id_key", "secrect_key"
+  config.omniauth :google_oauth2, "id_key", "secrect_key"
 
 
   # ==> Configuration for any authentication mechanism
